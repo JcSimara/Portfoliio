@@ -32,3 +32,4 @@ Include a contact section with your email address and links to professional soci
 <h1>Sustainable Development Goal</h1>
 This portfolio highlights the number sixteen SDG, which is Peace, Justice, and Strong Institutions. It focuses on the overall human rights that are either taken or restrictd by the society, making it for us hard to live. My goal as in IT student is to create an advocay through the means of generating websites that provides meaningful informations.
 
+<h3>https://github.com/JcSimara/Portfoliio.git</h3>
