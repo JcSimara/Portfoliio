@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(SLIDER/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a:hover, 
+.navbar a.active{
+    background: whitesmoke;
+    color: black;
+}
+
+.navbar .logo{
+    width: 120px;
+    cursor: pointer;
+    margin-top: -0.15%;
+    margin-left: -0.20%;
+}
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: antiquewhite;
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color:whitesmoke;
+
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+    transition: left 2s ease;
+}
+
+.info h1{
+    font-size: 65px;
+    color:aliceblue;
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color:aliceblue;
+    
+}
+
+.info span{
+    color:wheat;
+}
+
+.image{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    right: 90%;
+    bottom: 1190px;
+}
+
+.image img{
+    position: absolute;
+    height: 300px;
+    left: 1250px;
+    transform: translate(-55%);
+    bottom: 1190px;
+    transition: left 2s ease;
+    border-radius: 50%;
+    border: 10px solid #fff
+}
+
+.class h4{
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 24px;
+    margin-left: 7%;
+    margin-top: 5%;
+    transition: left 2s ease;
+}
+
+.image:hover .ID{
+    left: 55%;
+}
+
+.class span{
+    color: wheat;
+}
+
+.class h3{
+    font-size: 16px;
+    letter-spacing: 4px;
+    line-height: 24px;
+    margin-left: 7%;
+    margin-top: 2%;
+    color:aliceblue
+
+}
+
+.main {
+    background: linear-gradient(to left, rgb(1, 1, 70), rgb(76, 76, 175));
+    width: 100%;
+    height: 400vh;
+}
+
+.class h5{
+    font-size: 12;
+    letter-spacing: 4px;
+    line-height: 24px;
+    margin-left: 7%;
+    margin-top: 2%;
+    color:black
+}
+
